@@ -7,13 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C45E20831BBCB786005B0876 /* AppDelegate.swift in Resources */ = {isa = PBXBuildFile; fileRef = C4798FD11BBC6E2700283084 /* AppDelegate.swift */; };
+		C45E20841BBCB786005B0876 /* HomeController.swift in Resources */ = {isa = PBXBuildFile; fileRef = C4798FD31BBC6E2700283084 /* HomeController.swift */; };
+		C45E20851BBCB786005B0876 /* TextQuizViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = C4798FFF1BBC6FA700283084 /* TextQuizViewController.swift */; };
+		C45E20861BBCB786005B0876 /* ImageViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = C47990341BBC737C00283084 /* ImageViewController.swift */; };
 		C4798FD21BBC6E2700283084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4798FD11BBC6E2700283084 /* AppDelegate.swift */; };
-		C4798FD41BBC6E2700283084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4798FD31BBC6E2700283084 /* ViewController.swift */; };
+		C4798FD41BBC6E2700283084 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4798FD31BBC6E2700283084 /* HomeController.swift */; };
 		C4798FD71BBC6E2700283084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4798FD51BBC6E2700283084 /* Main.storyboard */; };
 		C4798FD91BBC6E2700283084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4798FD81BBC6E2700283084 /* Assets.xcassets */; };
 		C4798FDC1BBC6E2700283084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4798FDA1BBC6E2700283084 /* LaunchScreen.storyboard */; };
 		C4798FE71BBC6E2800283084 /* quiz1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4798FE61BBC6E2800283084 /* quiz1Tests.swift */; };
 		C4798FF21BBC6E2800283084 /* quiz1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4798FF11BBC6E2800283084 /* quiz1UITests.swift */; };
+		C47990001BBC6FA700283084 /* TextQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4798FFF1BBC6FA700283084 /* TextQuizViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C47990151BBC714600283084 /* illinois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47990051BBC714600283084 /* illinois.jpg */; settings = {ASSET_TAGS = (); }; };
+		C47990161BBC714600283084 /* illinois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47990051BBC714600283084 /* illinois.jpg */; settings = {ASSET_TAGS = (); }; };
+		C47990171BBC714600283084 /* wisconsin.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990061BBC714600283084 /* wisconsin.png */; settings = {ASSET_TAGS = (); }; };
+		C47990181BBC714600283084 /* wisconsin.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990061BBC714600283084 /* wisconsin.png */; settings = {ASSET_TAGS = (); }; };
+		C479901B1BBC714600283084 /* iowa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47990081BBC714600283084 /* iowa.jpg */; settings = {ASSET_TAGS = (); }; };
+		C479901C1BBC714600283084 /* iowa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47990081BBC714600283084 /* iowa.jpg */; settings = {ASSET_TAGS = (); }; };
+		C479901D1BBC714600283084 /* iu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47990091BBC714600283084 /* iu.jpg */; settings = {ASSET_TAGS = (); }; };
+		C479901E1BBC714600283084 /* iu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47990091BBC714600283084 /* iu.jpg */; settings = {ASSET_TAGS = (); }; };
+		C479901F1BBC714600283084 /* maryland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C479900A1BBC714600283084 /* maryland.jpg */; settings = {ASSET_TAGS = (); }; };
+		C47990201BBC714600283084 /* maryland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C479900A1BBC714600283084 /* maryland.jpg */; settings = {ASSET_TAGS = (); }; };
+		C47990211BBC714600283084 /* michigan.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900B1BBC714600283084 /* michigan.png */; settings = {ASSET_TAGS = (); }; };
+		C47990221BBC714600283084 /* michigan.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900B1BBC714600283084 /* michigan.png */; settings = {ASSET_TAGS = (); }; };
+		C47990231BBC714600283084 /* minnesota.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900C1BBC714600283084 /* minnesota.png */; settings = {ASSET_TAGS = (); }; };
+		C47990241BBC714600283084 /* minnesota.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900C1BBC714600283084 /* minnesota.png */; settings = {ASSET_TAGS = (); }; };
+		C47990251BBC714600283084 /* msu.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900D1BBC714600283084 /* msu.png */; settings = {ASSET_TAGS = (); }; };
+		C47990261BBC714600283084 /* msu.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900D1BBC714600283084 /* msu.png */; settings = {ASSET_TAGS = (); }; };
+		C47990271BBC714600283084 /* nebraska.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900E1BBC714600283084 /* nebraska.png */; settings = {ASSET_TAGS = (); }; };
+		C47990281BBC714600283084 /* nebraska.png in Resources */ = {isa = PBXBuildFile; fileRef = C479900E1BBC714600283084 /* nebraska.png */; settings = {ASSET_TAGS = (); }; };
+		C47990291BBC714600283084 /* northwestern.gif in Resources */ = {isa = PBXBuildFile; fileRef = C479900F1BBC714600283084 /* northwestern.gif */; settings = {ASSET_TAGS = (); }; };
+		C479902A1BBC714600283084 /* northwestern.gif in Resources */ = {isa = PBXBuildFile; fileRef = C479900F1BBC714600283084 /* northwestern.gif */; settings = {ASSET_TAGS = (); }; };
+		C479902B1BBC714600283084 /* pstate.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990101BBC714600283084 /* pstate.png */; settings = {ASSET_TAGS = (); }; };
+		C479902C1BBC714600283084 /* pstate.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990101BBC714600283084 /* pstate.png */; settings = {ASSET_TAGS = (); }; };
+		C479902D1BBC714600283084 /* purdue.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990111BBC714600283084 /* purdue.png */; settings = {ASSET_TAGS = (); }; };
+		C479902E1BBC714600283084 /* purdue.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990111BBC714600283084 /* purdue.png */; settings = {ASSET_TAGS = (); }; };
+		C479902F1BBC714600283084 /* rutgers.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990121BBC714600283084 /* rutgers.png */; settings = {ASSET_TAGS = (); }; };
+		C47990301BBC714600283084 /* rutgers.png in Resources */ = {isa = PBXBuildFile; fileRef = C47990121BBC714600283084 /* rutgers.png */; settings = {ASSET_TAGS = (); }; };
+		C47990351BBC737C00283084 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47990341BBC737C00283084 /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C47990361BBC737C00283084 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47990341BBC737C00283084 /* ImageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +69,7 @@
 /* Begin PBXFileReference section */
 		C4798FCE1BBC6E2700283084 /* quiz1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4798FD11BBC6E2700283084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4798FD31BBC6E2700283084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4798FD31BBC6E2700283084 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C4798FD61BBC6E2700283084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4798FD81BBC6E2700283084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4798FDB1BBC6E2700283084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +80,21 @@
 		C4798FED1BBC6E2800283084 /* quiz1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quiz1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4798FF11BBC6E2800283084 /* quiz1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz1UITests.swift; sourceTree = "<group>"; };
 		C4798FF31BBC6E2800283084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4798FFF1BBC6FA700283084 /* TextQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextQuizViewController.swift; sourceTree = "<group>"; };
+		C47990051BBC714600283084 /* illinois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = illinois.jpg; sourceTree = "<group>"; };
+		C47990061BBC714600283084 /* wisconsin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wisconsin.png; sourceTree = "<group>"; };
+		C47990081BBC714600283084 /* iowa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iowa.jpg; sourceTree = "<group>"; };
+		C47990091BBC714600283084 /* iu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iu.jpg; sourceTree = "<group>"; };
+		C479900A1BBC714600283084 /* maryland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maryland.jpg; sourceTree = "<group>"; };
+		C479900B1BBC714600283084 /* michigan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = michigan.png; sourceTree = "<group>"; };
+		C479900C1BBC714600283084 /* minnesota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minnesota.png; sourceTree = "<group>"; };
+		C479900D1BBC714600283084 /* msu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msu.png; sourceTree = "<group>"; };
+		C479900E1BBC714600283084 /* nebraska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nebraska.png; sourceTree = "<group>"; };
+		C479900F1BBC714600283084 /* northwestern.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = northwestern.gif; sourceTree = "<group>"; };
+		C47990101BBC714600283084 /* pstate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pstate.png; sourceTree = "<group>"; };
+		C47990111BBC714600283084 /* purdue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purdue.png; sourceTree = "<group>"; };
+		C47990121BBC714600283084 /* rutgers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rutgers.png; sourceTree = "<group>"; };
+		C47990341BBC737C00283084 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = ../ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +145,12 @@
 		C4798FD01BBC6E2700283084 /* quiz1 */ = {
 			isa = PBXGroup;
 			children = (
+				C47990031BBC712F00283084 /* images */,
 				C4798FD11BBC6E2700283084 /* AppDelegate.swift */,
-				C4798FD31BBC6E2700283084 /* ViewController.swift */,
+				C4798FD31BBC6E2700283084 /* HomeController.swift */,
 				C4798FD51BBC6E2700283084 /* Main.storyboard */,
+				C4798FFF1BBC6FA700283084 /* TextQuizViewController.swift */,
+				C47990341BBC737C00283084 /* ImageViewController.swift */,
 				C4798FD81BBC6E2700283084 /* Assets.xcassets */,
 				C4798FDA1BBC6E2700283084 /* LaunchScreen.storyboard */,
 				C4798FDD1BBC6E2700283084 /* Info.plist */,
@@ -123,6 +174,26 @@
 				C4798FF31BBC6E2800283084 /* Info.plist */,
 			);
 			path = quiz1UITests;
+			sourceTree = "<group>";
+		};
+		C47990031BBC712F00283084 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C47990051BBC714600283084 /* illinois.jpg */,
+				C47990061BBC714600283084 /* wisconsin.png */,
+				C47990081BBC714600283084 /* iowa.jpg */,
+				C47990091BBC714600283084 /* iu.jpg */,
+				C479900A1BBC714600283084 /* maryland.jpg */,
+				C479900B1BBC714600283084 /* michigan.png */,
+				C479900C1BBC714600283084 /* minnesota.png */,
+				C479900D1BBC714600283084 /* msu.png */,
+				C479900E1BBC714600283084 /* nebraska.png */,
+				C479900F1BBC714600283084 /* northwestern.gif */,
+				C47990101BBC714600283084 /* pstate.png */,
+				C47990111BBC714600283084 /* purdue.png */,
+				C47990121BBC714600283084 /* rutgers.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +299,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45E20831BBCB786005B0876 /* AppDelegate.swift in Resources */,
+				C45E20841BBCB786005B0876 /* HomeController.swift in Resources */,
+				C45E20851BBCB786005B0876 /* TextQuizViewController.swift in Resources */,
+				C45E20861BBCB786005B0876 /* ImageViewController.swift in Resources */,
+				C479901B1BBC714600283084 /* iowa.jpg in Resources */,
+				C47990271BBC714600283084 /* nebraska.png in Resources */,
+				C479902D1BBC714600283084 /* purdue.png in Resources */,
 				C4798FDC1BBC6E2700283084 /* LaunchScreen.storyboard in Resources */,
+				C47990171BBC714600283084 /* wisconsin.png in Resources */,
+				C47990251BBC714600283084 /* msu.png in Resources */,
+				C479901D1BBC714600283084 /* iu.jpg in Resources */,
+				C47990231BBC714600283084 /* minnesota.png in Resources */,
 				C4798FD91BBC6E2700283084 /* Assets.xcassets in Resources */,
 				C4798FD71BBC6E2700283084 /* Main.storyboard in Resources */,
+				C479902B1BBC714600283084 /* pstate.png in Resources */,
+				C47990151BBC714600283084 /* illinois.jpg in Resources */,
+				C47990291BBC714600283084 /* northwestern.gif in Resources */,
+				C479901F1BBC714600283084 /* maryland.jpg in Resources */,
+				C47990211BBC714600283084 /* michigan.png in Resources */,
+				C479902F1BBC714600283084 /* rutgers.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +326,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C479901E1BBC714600283084 /* iu.jpg in Resources */,
+				C47990161BBC714600283084 /* illinois.jpg in Resources */,
+				C47990181BBC714600283084 /* wisconsin.png in Resources */,
+				C47990281BBC714600283084 /* nebraska.png in Resources */,
+				C479902A1BBC714600283084 /* northwestern.gif in Resources */,
+				C47990221BBC714600283084 /* michigan.png in Resources */,
+				C479901C1BBC714600283084 /* iowa.jpg in Resources */,
+				C479902E1BBC714600283084 /* purdue.png in Resources */,
+				C47990261BBC714600283084 /* msu.png in Resources */,
+				C47990241BBC714600283084 /* minnesota.png in Resources */,
+				C479902C1BBC714600283084 /* pstate.png in Resources */,
+				C47990301BBC714600283084 /* rutgers.png in Resources */,
+				C47990201BBC714600283084 /* maryland.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +356,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4798FD41BBC6E2700283084 /* ViewController.swift in Sources */,
+				C47990001BBC6FA700283084 /* TextQuizViewController.swift in Sources */,
+				C4798FD41BBC6E2700283084 /* HomeController.swift in Sources */,
+				C47990351BBC737C00283084 /* ImageViewController.swift in Sources */,
 				C4798FD21BBC6E2700283084 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47990361BBC737C00283084 /* ImageViewController.swift in Sources */,
 				C4798FE71BBC6E2800283084 /* quiz1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +585,7 @@
 				C4798FF81BBC6E2800283084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4798FF91BBC6E2800283084 /* Build configuration list for PBXNativeTarget "quiz1Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +594,7 @@
 				C4798FFB1BBC6E2800283084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4798FFC1BBC6E2800283084 /* Build configuration list for PBXNativeTarget "quiz1UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +603,7 @@
 				C4798FFE1BBC6E2800283084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
